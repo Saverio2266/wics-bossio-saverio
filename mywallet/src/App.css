@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+h1, h2 {
+  color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, select, button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.Summary {
+  margin-bottom: 20px;
+}
